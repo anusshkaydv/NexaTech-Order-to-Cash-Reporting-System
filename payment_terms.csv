@@ -1,0 +1,6 @@
+Payment_Term_ID,Payment_Term_Name,Credit_Days,Is_Active,Created_Date
+1,Immediate,0,1,2026-07-13
+2,Net 15,15,1,2026-07-13
+3,Net 30,30,1,2026-07-13
+4,Net 45,45,1,2026-07-13
+5,Net 60,60,1,2026-07-13

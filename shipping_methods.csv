@@ -1,0 +1,6 @@
+Shipping_Method_ID,Shipping_Method_Name,Estimated_Delivery_Days,Is_Active,Created_Date
+1,Standard,5,1,2026-07-13
+2,Express,2,1,2026-07-13
+3,Air Freight,1,1,2026-07-13
+4,Surface Transport,7,1,2026-07-13
+5,Pickup,0,1,2026-07-13
