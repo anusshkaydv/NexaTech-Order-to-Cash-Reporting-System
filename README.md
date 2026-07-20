@@ -347,7 +347,7 @@ The dashboards provide KPI monitoring, trend analysis, operational visibility, a
 ## 🏠 Home Dashboard
 
 <p align="center">
-<img src="screenshots/Home Dashboard.png" width="95%">
+<img src="png/Home Dashboard.png" width="95%">
 </p>
 
 ---
@@ -355,7 +355,7 @@ The dashboards provide KPI monitoring, trend analysis, operational visibility, a
 ## 👔 Executive Dashboard
 
 <p align="center">
-<img src="screenshots/Executive Dashboard.png" width="95%">
+<img src="png/Executive Dashboard.png" width="95%">
 </p>
 
 ---
@@ -363,7 +363,7 @@ The dashboards provide KPI monitoring, trend analysis, operational visibility, a
 ## 💰 Sales Dashboard
 
 <p align="center">
-<img src="screenshots/Sales Dashboard.png" width="95%">
+<img src="png/Sales Dashboard.png" width="95%">
 </p>
 
 ---
@@ -371,7 +371,7 @@ The dashboards provide KPI monitoring, trend analysis, operational visibility, a
 ## 👥 Customer Dashboard
 
 <p align="center">
-<img src="screenshots/Customer Dashboard.png" width="95%">
+<img src="png/Customer Dashboard.png" width="95%">
 </p>
 
 ---
@@ -379,7 +379,7 @@ The dashboards provide KPI monitoring, trend analysis, operational visibility, a
 ## 📦 Inventory Dashboard
 
 <p align="center">
-<img src="screenshots/Inventory Dashboard.png" width="95%">
+<img src="png/Inventory Dashboard.png" width="95%">
 </p>
 
 ---
@@ -387,7 +387,7 @@ The dashboards provide KPI monitoring, trend analysis, operational visibility, a
 ## 🚚 Logistics Dashboard
 
 <p align="center">
-<img src="screenshots/Logistics Dashboard.png" width="95%">
+<img src="png/Logistics Dashboard.png" width="95%">
 </p>
 
 ---
@@ -395,7 +395,7 @@ The dashboards provide KPI monitoring, trend analysis, operational visibility, a
 ## 💳 Finance Dashboard
 
 <p align="center">
-<img src="screenshots/Finance Dashboard.png" width="95%">
+<img src="png/Finance Dashboard.png" width="95%">
 </p>
 
 ---
@@ -403,7 +403,7 @@ The dashboards provide KPI monitoring, trend analysis, operational visibility, a
 ## ↩ Returns Dashboard
 
 <p align="center">
-<img src="screenshots/Returns Dashboard.png" width="95%">
+<img src="png/Returns Dashboard.png" width="95%">
 </p>
 
 ---
