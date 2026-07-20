@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>NexaTech System Architecture</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+
+background:linear-gradient(135deg,#edf5ff,#d7e8ff);
+
+padding:40px;
+
+}
+
+.container{
+
+max-width:1800px;
+
+margin:auto;
+
+}
+
+.title{
+
+text-align:center;
+
+font-size:42px;
+
+font-weight:bold;
+
+color:#0b3d91;
+
+margin-bottom:15px;
+
+}
+
+.subtitle{
+
+text-align:center;
+
+font-size:18px;
+
+color:#555;
+
+margin-bottom:60px;
+
+}
+
+.pipeline{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+flex-wrap:wrap;
+
+gap:18px;
+
+}
+
+.card{
+
+width:190px;
+
+height:200px;
+
+background:white;
+
+border-radius:18px;
+
+box-shadow:0px 12px 25px rgba(0,0,0,.15);
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+transition:.35s;
+
+cursor:pointer;
+
+padding:15px;
+
+}
+
+.card:hover{
+
+transform:translateY(-12px);
+
+box-shadow:0px 18px 35px rgba(0,0,0,.25);
+
+}
+
+.icon{
+
+font-size:42px;
+
+margin-bottom:15px;
+
+}
+
+.heading{
+
+font-size:18px;
+
+font-weight:bold;
+
+text-align:center;
+
+color:#003366;
+
+margin-bottom:8px;
+
+}
+
+.text{
+
+font-size:13px;
+
+text-align:center;
+
+color:#555;
+
+line-height:20px;
+
+}
+
+.arrow{
+
+font-size:42px;
+
+font-weight:bold;
+
+color:#1976d2;
+
+}
+
+.section{
+
+margin-top:80px;
+
+background:white;
+
+border-radius:20px;
+
+padding:35px;
+
+box-shadow:0px 12px 25px rgba(0,0,0,.15);
+
+}
+
+.section h2{
+
+color:#003366;
+
+margin-bottom:20px;
+
+}
+
+.features{
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:20px;
+
+}
+
+.feature{
+
+background:#f7fbff;
+
+padding:18px;
+
+border-radius:15px;
+
+border-left:6px solid #0078d4;
+
+}
+
+.feature h3{
+
+color:#003366;
+
+margin-bottom:10px;
+
+}
+
+.feature p{
+
+font-size:14px;
+
+color:#555;
+
+line-height:22px;
+
+}
+
+.footer{
+
+margin-top:60px;
+
+text-align:center;
+
+font-size:16px;
+
+font-weight:bold;
+
+color:#0b3d91;
+
+}
+
+@media(max-width:1400px){
+
+.features{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:900px){
+
+.pipeline{
+
+flex-direction:column;
+
+}
+
+.arrow{
+
+transform:rotate(90deg);
+
+}
+
+.features{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="title">
+
+NexaTech Order-to-Cash Reporting System
+
+</div>
+
+<div class="subtitle">
+
+Complete Azure Based Enterprise Data Analytics Architecture
+
+</div>
+
+<div class="pipeline">
+
+<div class="card">
+
+<div class="icon">🐍</div>
+
+<div class="heading">Python Data Generator</div>
+
+<div class="text">
+
+Master Dataset Generator
+
+<br>
+
+Transaction Dataset Generator
+
+</div>
+
+</div>
+
+<div class="arrow">➜</div>
+
+<div class="card">
+
+<div class="icon">📄</div>
+
+<div class="heading">
+
+16 CSV Files
+
+</div>
+
+<div class="text">
+
+Master Data
+
+<br>
+
+Transaction Data
+
+</div>
+
+</div>
+
+<div class="arrow">➜</div>
+
+<div class="card">
+
+<div class="icon">☁️</div>
+
+<div class="heading">
+
+Azure Blob Storage
+
+</div>
+
+<div class="text">
+
+Raw Business Data
+
+<br>
+
+Cloud Storage
+
+</div>
+
+</div>
+
+<div class="arrow">➜</div>
+
+<div class="card">
+
+<div class="icon">⚙️</div>
+
+<div class="heading">
+
+Azure Data Factory
+
+</div>
+
+<div class="text">
+
+Pipeline Orchestration
+
+<br>
+
+Scheduling
+
+</div>
+
+</div>
+
+<div class="arrow">➜</div>
+<div class="card">
+
+<div class="icon">🐍</div>
+
+<div class="heading">
+
+Python ETL Pipeline
+
+</div>
+
+<div class="text">
+
+Loader
+
+<br>
+
+Validator
+
+<br>
+
+Transformer
+
+<br>
+
+Uploader
+
+</div>
+
+</div>
+
+<div class="arrow">➜</div>
+
+<div class="card">
+
+<div class="icon">🗄️</div>
+
+<div class="heading">
+
+Azure SQL Database
+
+</div>
+
+<div class="text">
+
+NexaTechERP
+
+<br>
+
+16 ERP Tables
+
+</div>
+
+</div>
+
+<div class="arrow">➜</div>
+
+<div class="card">
+
+<div class="icon">📊</div>
+
+<div class="heading">
+
+Analytics SQL Views
+
+</div>
+
+<div class="text">
+
+Sales
+
+<br>
+
+Inventory
+
+<br>
+
+Customer
+
+<br>
+
+Finance
+
+</div>
+
+</div>
+
+<div class="arrow">➜</div>
+
+<div class="card">
+
+<div class="icon">📈</div>
+
+<div class="heading">
+
+Power BI
+
+</div>
+
+<div class="text">
+
+8 Interactive
+
+<br>
+
+Business Dashboards
+
+</div>
+
+</div>
+
+<div class="arrow">➜</div>
+
+<div class="card">
+
+<div class="icon">💡</div>
+
+<div class="heading">
+
+Business Insights
+
+</div>
+
+<div class="text">
+
+Executive
+
+<br>
+
+Decision Making
+
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>
+
+Technology Stack Used
+
+</h2>
+
+<div class="features">
+
+<div class="feature">
+
+<h3>
+
+Python Development
+
+</h3>
+
+<p>
+
+Python scripts generate all master datasets and transactional datasets.
+The ETL framework performs validation, transformation, logging, reporting and uploading automatically.
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<h3>
+
+Azure Cloud Platform
+
+</h3>
+
+<p>
+
+Business datasets are uploaded into Azure Blob Storage before being orchestrated through Azure Data Factory and stored inside Azure SQL Database.
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<h3>
+
+SQL Data Warehouse
+
+</h3>
+
+<p>
+
+The ERP schema consists of sixteen normalized business tables with relationships, constraints and dedicated Analytics SQL Views for reporting.
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<h3>
+
+Business Intelligence
+
+</h3>
+
+<p>
+
+Power BI consumes the Analytics Views to create executive dashboards for Sales, Customers, Inventory, Finance, Orders, Returns and Products.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>
+
+Project Workflow
+
+</h2>
+
+<div class="features">
+
+<div class="feature">
+
+<h3>
+
+Data Generation
+
+</h3>
+
+<p>
+
+Python Generator Scripts automatically create realistic ERP datasets including customers, products, orders, payments, inventory, invoices, shipments and returns.
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<h3>
+
+Cloud Integration
+
+</h3>
+
+<p>
+
+Generated datasets are uploaded into Azure Blob Storage where Azure Data Factory manages movement into Azure SQL Database.
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<h3>
+
+Analytics Layer
+
+</h3>
+
+<p>
+
+Business logic is implemented through SQL Views to calculate KPIs required by management reporting.
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<h3>
+
+Reporting Layer
+
+</h3>
+
+<p>
+
+Power BI connects to Azure SQL Analytics Views to provide interactive business dashboards.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>
+
+Project Components
+
+</h2>
+
+<div class="features">
+
+<div class="feature">
+
+<h3>Master Data</h3>
+
+<p>
+
+Regions<br>
+Warehouses<br>
+Employees<br>
+Customers<br>
+Products<br>
+Payment Terms<br>
+Shipping Methods<br>
+Product Categories
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<h3>Transaction Data</h3>
+
+<p>
+
+Orders<br>
+Order Items<br>
+Inventory<br>
+Shipments<br>
+Invoices<br>
+Payments<br>
+Returns<br>
+Discounts
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<h3>ETL Modules</h3>
+
+<p>
+
+✔ Loader
+
+<br>
+
+✔ Validator
+
+<br>
+
+✔ Transformer
+
+<br>
+
+✔ Logger
+
+<br>
+
+✔ Report Generator
+
+<br>
+
+✔ Uploader
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<h3>Analytics Outputs</h3>
+
+<p>
+
+Executive Dashboard
+
+<br>
+
+Sales Dashboard
+
+<br>
+
+Customer Dashboard
+
+<br>
+
+Inventory Dashboard
+
+<br>
+
+Product Dashboard
+
+<br>
+
+Order Dashboard
+
+<br>
+
+Returns Dashboard
+
+<br>
+
+Finance Dashboard
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="footer">
+
+NexaTech Electronics Pvt. Ltd.<br><br>
+
+Azure Order-to-Cash Reporting System<br><br>
+
+Designed & Developed by <b>Anushka Yadav</b>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
