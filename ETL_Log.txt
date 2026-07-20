@@ -1,0 +1,8 @@
+[2026-07-19 00:26:32] ========== ETL Pipeline Started ==========
+[2026-07-19 00:26:38] Loaded 16 datasets from Azure Blob Storage.
+[2026-07-19 00:26:39] Data validation completed successfully.
+[2026-07-19 00:26:39] Data transformation completed successfully.
+[2026-07-19 00:26:44] Processed datasets uploaded to Azure Blob Storage.
+[2026-07-19 00:26:44] Data Quality Report generated.
+[2026-07-19 00:26:44] ========== ETL Pipeline Completed Successfully ==========
+
