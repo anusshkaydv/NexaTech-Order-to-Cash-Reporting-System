@@ -95,7 +95,6 @@ Order-to-Cash (O2C)
 - Warehouses
 - Inventory
 - Logistics
-- Billing
 - Finance
 - Returns
 
@@ -348,7 +347,7 @@ The dashboards provide KPI monitoring, trend analysis, operational visibility, a
 ## 🏠 Home Dashboard
 
 <p align="center">
-<img src="screenshots/Home.png" width="95%">
+<img src="screenshots/Home Dashboard.png" width="95%">
 </p>
 
 ---
