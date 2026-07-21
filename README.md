@@ -442,6 +442,8 @@ NexaTech_Order_to_Cash_Analytics
 │   ├── Database Scripts
 │   
 │
+|__ .env
+|__ .gitignore
 ├── README.md
 ├── LICENSE
 └── requirements.txt
