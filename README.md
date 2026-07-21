@@ -64,7 +64,7 @@ This project aims to build a complete Order-to-Cash analytics solution capable o
 |----------|--------------|
 | Programming | Python |
 | Data Processing | Pandas |
-| Database | SQL Server, Azure SQL Database |
+| Database | SQL Server, Azure SQL Database, SQL Server Management Studio (SSMS) |
 | Cloud | Azure Blob Storage, Azure Data Factory (Architecture) |
 | Database Connectivity | PyODBC |
 | Data Storage | CSV |
@@ -268,7 +268,7 @@ The project contains separate data generators for:
 - Returns
 - Discounts
 
-More than **8,000+ realistic ERP records** are generated with relational integrity between all entities.
+More than **388,000+ realistic ERP records** are generated with relational integrity between all entities.
 
 ---
 
@@ -491,7 +491,7 @@ python python/etl/pipeline.py
 
 ## Deploy Database
 
-Run the SQL scripts sequentially.
+Run the SQL scripts sequentially using SQL Server Management Studio (SSMS) or Azure Data Studio, connected to your Azure SQL Database instance.
 
 ```
 01_create_database.sql
