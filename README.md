@@ -132,7 +132,7 @@ Business Decision Making
 The following diagram illustrates the complete end-to-end architecture of the project.
 
 <p align="center">
-<img src="architecture/System_Architecture.png" width="100%">
+<img src="architecture/system_architecture.png" width="100%">
 </p>
 
 ---
