@@ -415,15 +415,20 @@ NexaTech_Order_to_Cash_Analytics
 ├── architecture/
 │
 ├── data/
-│   └── raw/
+│   
 │
 ├── etl_reports/
 │
+|___ png/
+|    |__dashboards/
+|
+|
 ├── python/
 │   ├── etl/
 │   ├── master/
 │   ├── transactions/
 │   ├── sql/
+|       |__analytics/
 │   ├── azure_blob_connection.py
 │   ├── data_validation.py
 │   ├── fix_customers.py
@@ -434,7 +439,7 @@ NexaTech_Order_to_Cash_Analytics
 │
 ├── sql/
 │   ├── Database Scripts
-│   └── Analytics Views
+│   
 │
 ├── README.md
 ├── LICENSE
