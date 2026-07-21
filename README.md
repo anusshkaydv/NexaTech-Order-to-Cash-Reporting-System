@@ -421,7 +421,7 @@ NexaTech_Order_to_Cash_Analytics
 ├── etl_reports/
 │
 |___ png/
-|    |__dashboards/
+|     └── dashboards/
 |
 |
 ├── python/
@@ -429,7 +429,7 @@ NexaTech_Order_to_Cash_Analytics
 │   ├── master/
 │   ├── transactions/
 │   ├── sql/
-|       |__analytics/
+|        └── analytics/
 │   ├── azure_blob_connection.py
 │   ├── data_validation.py
 │   ├── fix_customers.py
@@ -439,7 +439,7 @@ NexaTech_Order_to_Cash_Analytics
 ├── screenshots/
 │
 ├── sql/
-│   ├── Database Scripts
+│    └── Database Scripts
 │   
 │
 |__ .env
