@@ -416,7 +416,8 @@ NexaTech_Order_to_Cash_Analytics
 │
 ├── data/
 │   
-│
+│__ demo/
+|
 ├── etl_reports/
 │
 |___ png/
@@ -538,12 +539,11 @@ Interactive Dashboards
 
 ---
 
-# 🎥 Project Demonstration
+# 🎥Power BI Dashboard Walkthrough
 
 A complete walkthrough of the project is available below.
 
-👉 **Project Demo Video**
-
+👉 ** [Watch the video on Google Drive]**
 
 ```
 https://drive.google.com/file/d/1UnmyKScpzQz2Q4c1dlcnSKqa-wRuqahy/view?usp=sharing
