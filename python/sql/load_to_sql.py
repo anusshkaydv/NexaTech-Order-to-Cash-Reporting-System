@@ -8,8 +8,8 @@ from pathlib import Path
 
 SERVER = "nexatech-anushka-sql.database.windows.net"
 DATABASE = "NexaTechERP"
-USERNAME = "nexatechadmin"
-PASSWORD = "Qwertyuiop@123"
+USERNAME = ""
+PASSWORD = ""
 
 connection_string = (
     "DRIVER={ODBC Driver 18 for SQL Server};"
