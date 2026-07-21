@@ -6,8 +6,8 @@ from pathlib import Path
 # -----------------------------
 server = "nexatech-anushka-sql.database.windows.net"
 database = "NexaTechERP"
-username = "nexatechadmin"
-password = "Qwertyuiop@123"
+username = ""
+password = ""
 
 connection_string = (
     "DRIVER={ODBC Driver 18 for SQL Server};"
