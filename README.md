@@ -1,4 +1,4 @@
-# 🚀 NexaTech Order-to-Cash Analytics System
+# 🚀 NexaTech Order-to-Cash Reporting System
 
 > **End-to-End Azure Data Analytics Project**  
 > Built using **Python, Azure SQL Database, Azure Blob Storage, Azure Data Factory concepts, SQL, and Power BI** to transform raw ERP transactions into business intelligence dashboards for executive decision-making.
@@ -7,7 +7,7 @@
 
 ## 📌 Project Overview
 
-The **NexaTech Order-to-Cash (O2C) Analytics System** is an enterprise-scale analytics solution that simulates how modern organizations convert operational ERP transactions into meaningful business insights.
+The **NexaTech Order-to-Cash (O2C) Reporting System** is an enterprise-scale analytics solution that simulates how modern organizations convert operational ERP transactions into meaningful business insights.
 
 The project follows the complete **Order-to-Cash lifecycle**, beginning with synthetic ERP data generation, data validation, ETL processing, Azure cloud storage, Azure SQL Database deployment, analytical SQL reporting, and finally interactive Power BI dashboards.
 
