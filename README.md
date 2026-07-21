@@ -543,11 +543,9 @@ Interactive Dashboards
 
 A complete walkthrough of the project is available below.
 
-👉 ** [Watch the video on Google Drive]**
+👉 ** [Watch the video on Google Drive]** https://drive.google.com/file/d/1UnmyKScpzQz2Q4c1dlcnSKqa-wRuqahy/view?usp=sharing
 
-```
-https://drive.google.com/file/d/1UnmyKScpzQz2Q4c1dlcnSKqa-wRuqahy/view?usp=sharing
-```
+
 
 ---
 
