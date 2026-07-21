@@ -544,10 +544,9 @@ A complete walkthrough of the project is available below.
 
 👉 **Project Demo Video**
 
-**Replace this link with your video**
 
 ```
-https://your-video-link
+https://drive.google.com/file/d/1UnmyKScpzQz2Q4c1dlcnSKqa-wRuqahy/view?usp=sharing
 ```
 
 ---
