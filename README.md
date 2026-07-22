@@ -441,6 +441,7 @@ NexaTech_Order_to_Cash_Analytics
 │
 |__ .env
 |__ .gitignore
+|__ NexaTech_Report
 ├── README.md
 ├── LICENSE
 └── requirements.txt
