@@ -427,7 +427,7 @@ NexaTech_Order_to_Cash_Analytics
 │   ├── master/
 │   ├── transactions/
 │   ├── sql/
-|        └── analytics/
+|   |     └── analytics/
 │   ├── azure_blob_connection.py
 │   ├── data_validation.py
 │   ├── fix_customers.py
